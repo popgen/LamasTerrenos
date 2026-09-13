@@ -1,10 +1,12 @@
 {
-  "generated_at": "2026-09-13T21:33:47.764Z",
+  "generated_at": "2026-09-13T21:39:01.125Z",
   "lamas": {
     "lat": -6.4236,
     "lng": -76.5225,
     "name": "Lamas"
   },
+  "today_lima": "2026-09-13",
+  "new_count": 0,
   "listings": [
     {
       "id": "834122476257511",
@@ -45,6 +47,8 @@
       "scraped_at": "2026-09-13T20:13:49.560Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": false,
       "parcel_label": "Terreno / chacra"
     },
@@ -84,6 +88,8 @@
       "scraped_at": "2026-09-13T20:14:14.256Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": true,
       "parcel_label": "Lote"
     },
@@ -130,6 +136,8 @@
       "scraped_at": "2026-09-13T20:14:40.098Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": true,
       "parcel_label": "Lote"
     },
@@ -175,6 +183,8 @@
       "scraped_at": "2026-09-13T20:15:05.490Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": true,
       "parcel_label": "Lote"
     },
@@ -228,6 +238,8 @@
       "scraped_at": "2026-09-13T20:15:30.287Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": true,
       "parcel_label": "Lote"
     },
@@ -268,6 +280,8 @@
       "scraped_at": "2026-09-13T20:15:55.364Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": true,
       "parcel_label": "Lote"
     },
@@ -305,6 +319,8 @@
       "scraped_at": "2026-09-13T20:16:20.135Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": false,
       "parcel_label": "Terreno / chacra"
     },
@@ -350,6 +366,8 @@
       "scraped_at": "2026-09-13T20:16:43.799Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": true,
       "parcel_label": "Lote"
     },
@@ -390,6 +408,8 @@
       "scraped_at": "2026-09-13T20:17:08.816Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": true,
       "parcel_label": "Lote"
     },
@@ -431,6 +451,8 @@
       "scraped_at": "2026-09-13T20:17:33.398Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": false,
       "parcel_label": "Terreno / chacra"
     },
@@ -470,6 +492,8 @@
       "scraped_at": "2026-09-13T20:17:57.798Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": false,
       "parcel_label": "Terreno / chacra"
     },
@@ -507,6 +531,8 @@
       "scraped_at": "2026-09-13T20:18:21.617Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": false,
       "parcel_label": "Terreno / chacra"
     },
@@ -550,6 +576,8 @@
       "scraped_at": "2026-09-13T20:18:45.883Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": false,
       "parcel_label": "Terreno / chacra"
     },
@@ -590,6 +618,8 @@
       "scraped_at": "2026-09-13T20:19:10.261Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": true,
       "parcel_label": "Lote"
     },
@@ -622,6 +652,8 @@
       "scraped_at": "2026-09-13T20:19:34.876Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": true,
       "parcel_label": "Lote"
     },
@@ -663,6 +695,8 @@
       "scraped_at": "2026-09-13T20:19:58.945Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": false,
       "parcel_label": "Terreno / chacra"
     },
@@ -701,6 +735,8 @@
       "scraped_at": "2026-09-13T20:20:23.590Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": true,
       "parcel_label": "Lote"
     },
@@ -742,6 +778,8 @@
       "scraped_at": "2026-09-13T20:20:48.525Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": false,
       "parcel_label": "Terreno / chacra"
     },
@@ -788,6 +826,8 @@
       "scraped_at": "2026-09-13T20:21:13.915Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": false,
       "parcel_label": "Terreno / chacra"
     },
@@ -829,6 +869,8 @@
       "scraped_at": "2026-09-13T20:21:39.277Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": null,
       "parcel_label": "No claro"
     },
@@ -868,6 +910,8 @@
       "scraped_at": "2026-09-13T20:22:04.304Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": false,
       "parcel_label": "Terreno / chacra"
     },
@@ -906,6 +950,8 @@
       "scraped_at": "2026-09-13T20:22:28.491Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": false,
       "parcel_label": "Terreno / chacra"
     },
@@ -946,6 +992,8 @@
       "scraped_at": "2026-09-13T20:22:53.401Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": false,
       "parcel_label": "Terreno / chacra"
     },
@@ -987,6 +1035,8 @@
       "scraped_at": "2026-09-13T20:23:17.701Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": false,
       "parcel_label": "Terreno / chacra"
     },
@@ -1026,6 +1076,8 @@
       "scraped_at": "2026-09-13T20:23:42.218Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": true,
       "parcel_label": "Lote"
     },
@@ -1062,6 +1114,8 @@
       "scraped_at": "2026-09-13T20:24:06.077Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": true,
       "parcel_label": "Lote"
     },
@@ -1110,6 +1164,8 @@
       "scraped_at": "2026-09-13T20:24:30.880Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": false,
       "parcel_label": "Terreno / chacra"
     },
@@ -1144,6 +1200,8 @@
       "scraped_at": "2026-09-13T20:24:56.132Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": true,
       "parcel_label": "Lote"
     },
@@ -1180,6 +1238,8 @@
       "scraped_at": "2026-09-13T20:25:21.210Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": false,
       "parcel_label": "Terreno / chacra"
     },
@@ -1220,6 +1280,8 @@
       "scraped_at": "2026-09-13T20:25:46.160Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": true,
       "parcel_label": "Lote"
     },
@@ -1261,6 +1323,8 @@
       "scraped_at": "2026-09-13T20:26:10.178Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": true,
       "parcel_label": "Lote"
     },
@@ -1297,6 +1361,8 @@
       "scraped_at": "2026-09-13T20:26:34.525Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": true,
       "parcel_label": "Lote"
     },
@@ -1334,6 +1400,8 @@
       "scraped_at": "2026-09-13T20:26:59.490Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": null,
       "parcel_label": "No claro"
     },
@@ -1375,6 +1443,8 @@
       "scraped_at": "2026-09-13T20:27:23.594Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": true,
       "parcel_label": "Lote"
     },
@@ -1411,6 +1481,8 @@
       "scraped_at": "2026-09-13T20:27:48.482Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": true,
       "parcel_label": "Lote"
     },
@@ -1449,6 +1521,8 @@
       "scraped_at": "2026-09-13T20:28:12.536Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": false,
       "parcel_label": "Terreno / chacra"
     },
@@ -1489,6 +1563,8 @@
       "scraped_at": "2026-09-13T20:28:37.755Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": true,
       "parcel_label": "Lote"
     },
@@ -1525,6 +1601,8 @@
       "scraped_at": "2026-09-13T20:29:02.553Z",
       "listed_text": null,
       "listed_at": null,
+      "first_seen_at": "2026-09-12T12:00:00.000Z",
+      "is_new": false,
       "is_lote": true,
       "parcel_label": "Lote"
     }
