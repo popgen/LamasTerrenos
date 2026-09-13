@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T21:21:16.434Z",
+  "generated_at": "2026-09-13T21:23:27.450Z",
   "lamas": {
     "lat": -6.4236,
     "lng": -76.5225,
@@ -41,7 +41,7 @@
       "value_flags": [
         "free_or_contact_price"
       ],
-      "deals_notes": "Shown as Free/PEN0. On Marketplace this is usually contact-for-price, not an actual gift of the land. Clues: CARRETERA, a solo 20 minutos de donde termina la; quebrada de agua natural, ideal para disfrutar d; San Roque de Cumbaza.",
+      "deals_notes": "Aparece como Gratis/PEN0. En Marketplace suele significar “consultar precio”, no que el terreno sea regalado. Pistas: CARRETERA, a solo 20 minutos de donde termina la; quebrada de agua natural, ideal para disfrutar d; San Roque de Cumbaza.",
       "scraped_at": "2026-09-13T20:13:49.560Z",
       "listed_text": null,
       "listed_at": null,
@@ -126,7 +126,7 @@
         "placeholder_or_unusually_low_price",
         "corner_lot"
       ],
-      "deals_notes": "Grid price drop: PEN180 reduced from PEN310. Asking PEN180 is not a credible total for the claimed parcel (typical Lamas/Tarapoto land is thousands to hundreds of thousands). Likely omitted zeros or a message-me placeholder. Corner lot (esquina) — usually a premium vs mid-block lots. Clues: ESQUINA.",
+      "deals_notes": "Bajada de precio en el listado: PEN180 (antes PEN310). El precio PEN180 no es creíble como total del terreno (en Lamas/Tarapoto suele ir de miles a cientos de miles). Probable precio provisional o ceros omitidos; conviene preguntar. Lote en esquina — suele valer más que uno a media cuadra. Pistas: ESQUINA.",
       "scraped_at": "2026-09-13T20:14:40.098Z",
       "listed_text": null,
       "listed_at": null,
@@ -171,7 +171,7 @@
         "placeholder_or_unusually_low_price",
         "corner_lot"
       ],
-      "deals_notes": "Grid price drop: PEN180 reduced from PEN200. Asking PEN180 is not a credible total for the claimed parcel (typical Lamas/Tarapoto land is thousands to hundreds of thousands). Likely omitted zeros or a message-me placeholder. Corner lot (esquina) — usually a premium vs mid-block lots. Clues: ESQUINA.",
+      "deals_notes": "Bajada de precio en el listado: PEN180 (antes PEN200). El precio PEN180 no es creíble como total del terreno (en Lamas/Tarapoto suele ir de miles a cientos de miles). Probable precio provisional o ceros omitidos; conviene preguntar. Lote en esquina — suele valer más que uno a media cuadra. Pistas: ESQUINA.",
       "scraped_at": "2026-09-13T20:15:05.490Z",
       "listed_text": null,
       "listed_at": null,
@@ -224,7 +224,7 @@
         "price_drop",
         "corner_lot"
       ],
-      "deals_notes": "Grid price drop: PEN45,000 reduced from PEN150,000. Corner lot (esquina) — usually a premium vs mid-block lots. Stated cut of about 70% from the previous ask. Clues: carretera Belaunde Terry; quebrada Shanahuillo; SUNARP; TÍTULO; esquina; Shanao.",
+      "deals_notes": "Bajada de precio en el listado: PEN45,000 (antes PEN150,000). Lote en esquina — suele valer más que uno a media cuadra. Indica una rebaja de cerca del 70% respecto al precio anterior. Pistas: carretera Belaunde Terry; quebrada Shanahuillo; SUNARP; TÍTULO; esquina; Shanao.",
       "scraped_at": "2026-09-13T20:15:30.287Z",
       "listed_text": null,
       "listed_at": null,
@@ -264,7 +264,7 @@
       "value_flags": [
         "placeholder_or_unusually_low_price"
       ],
-      "deals_notes": "Asking PEN40 is not a credible total for the claimed parcel (typical Lamas/Tarapoto land is thousands to hundreds of thousands). Likely omitted zeros or a message-me placeholder. Clues: Rumisapa; Cacatachi.",
+      "deals_notes": "El precio PEN40 no es creíble como total del terreno (en Lamas/Tarapoto suele ir de miles a cientos de miles). Probable precio provisional o ceros omitidos; conviene preguntar. Pistas: Rumisapa; Cacatachi.",
       "scraped_at": "2026-09-13T20:15:55.364Z",
       "listed_text": null,
       "listed_at": null,
@@ -301,7 +301,7 @@
       "value_flags": [
         "placeholder_or_unusually_low_price"
       ],
-      "deals_notes": "Asking PEN3 is not a credible total for the claimed parcel (typical Lamas/Tarapoto land is thousands to hundreds of thousands). Likely omitted zeros or a message-me placeholder. Clues: carretera Fernando Belaúnde Norte – Km 15 📌 Sect; Fernando Belaunde Terry Churuzapa 🚨🌿 ¡GRAN OP; Título; Churuzapa.",
+      "deals_notes": "El precio PEN3 no es creíble como total del terreno (en Lamas/Tarapoto suele ir de miles a cientos de miles). Probable precio provisional o ceros omitidos; conviene preguntar. Pistas: carretera Fernando Belaúnde Norte – Km 15 📌 Sect; Fernando Belaunde Terry Churuzapa 🚨🌿 ¡GRAN OP; Título; Churuzapa.",
       "scraped_at": "2026-09-13T20:16:20.135Z",
       "listed_text": null,
       "listed_at": null,
@@ -346,7 +346,7 @@
         "corner_lot",
         "seller_says_bargain"
       ],
-      "deals_notes": "Corner lot (esquina) — usually a premium vs mid-block lots. Seller copy uses remato/ocasión language. Clues: carretera perfectamente asfaltada; quebradas y paisajes amazónicos espectaculares; ESQUINA.",
+      "deals_notes": "Lote en esquina — suele valer más que uno a media cuadra. El anuncio usa lenguaje de remate/ocasión. Pistas: carretera perfectamente asfaltada; quebradas y paisajes amazónicos espectaculares; ESQUINA.",
       "scraped_at": "2026-09-13T20:16:43.799Z",
       "listed_text": null,
       "listed_at": null,
@@ -386,7 +386,7 @@
         "seller_says_bargain",
         "rich_vs_small_lot_comps"
       ],
-      "deals_notes": "Corner lot (esquina) — usually a premium vs mid-block lots. Seller copy uses remato/ocasión language. About PEN220/m² — above typical Tarapoto lote comps (~PEN45–100/m²) and the discounted Shanao lot (~PEN20/m²). Clues: carretera perfectamente asfaltada; quebradas y paisajes amazónicos espectaculares; ESQUINA.",
+      "deals_notes": "Lote en esquina — suele valer más que uno a media cuadra. El anuncio usa lenguaje de remate/ocasión. Unos PEN220/m² — por encima de lotes típicos en Tarapoto (~PEN45–100/m²) y del lote rebajado en Shanao (~PEN20/m²). Pistas: carretera perfectamente asfaltada; quebradas y paisajes amazónicos espectaculares; ESQUINA.",
       "scraped_at": "2026-09-13T20:17:08.816Z",
       "listed_text": null,
       "listed_at": null,
@@ -427,7 +427,7 @@
         "río Mayo"
       ],
       "value_flags": [],
-      "deals_notes": "Clues: río Mayo.",
+      "deals_notes": "Pistas: río Mayo.",
       "scraped_at": "2026-09-13T20:17:33.398Z",
       "listed_text": null,
       "listed_at": null,
@@ -466,7 +466,7 @@
       "value_flags": [
         "cheap_vs_area"
       ],
-      "deals_notes": "About PEN5.1/m². Lamas urban ~8,938 m² asks PEN480–500k (~PEN54–56/m²); Shanao 2,225 m² was cut to PEN45k (~PEN20/m²); Tarapoto small lots often PEN45–100/m². This is cheap vs those comps if size is real. Clues: título.",
+      "deals_notes": "Unos PEN5.1/m². Urbanos en Lamas (~8,938 m²) piden PEN480–500k (~PEN54–56/m²); Shanao 2,225 m² bajó a PEN45k (~PEN20/m²); lotes chicos en Tarapoto suelen PEN45–100/m². Sale barato frente a eso si el área es real. Pistas: título.",
       "scraped_at": "2026-09-13T20:17:57.798Z",
       "listed_text": null,
       "listed_at": null,
@@ -503,7 +503,7 @@
       "value_flags": [
         "cheap_vs_area"
       ],
-      "deals_notes": "About PEN5.2/m². Lamas urban ~8,938 m² asks PEN480–500k (~PEN54–56/m²); Shanao 2,225 m² was cut to PEN45k (~PEN20/m²); Tarapoto small lots often PEN45–100/m². This is cheap vs those comps if size is real. Clues: título.",
+      "deals_notes": "Unos PEN5.2/m². Urbanos en Lamas (~8,938 m²) piden PEN480–500k (~PEN54–56/m²); Shanao 2,225 m² bajó a PEN45k (~PEN20/m²); lotes chicos en Tarapoto suelen PEN45–100/m². Sale barato frente a eso si el área es real. Pistas: título.",
       "scraped_at": "2026-09-13T20:18:21.617Z",
       "listed_text": null,
       "listed_at": null,
@@ -546,7 +546,7 @@
       "value_flags": [
         "cheap_vs_area"
       ],
-      "deals_notes": "About PEN5.3/m². Lamas urban ~8,938 m² asks PEN480–500k (~PEN54–56/m²); Shanao 2,225 m² was cut to PEN45k (~PEN20/m²); Tarapoto small lots often PEN45–100/m². This is cheap vs those comps if size is real. Clues: título.",
+      "deals_notes": "Unos PEN5.3/m². Urbanos en Lamas (~8,938 m²) piden PEN480–500k (~PEN54–56/m²); Shanao 2,225 m² bajó a PEN45k (~PEN20/m²); lotes chicos en Tarapoto suelen PEN45–100/m². Sale barato frente a eso si el área es real. Pistas: título.",
       "scraped_at": "2026-09-13T20:18:45.883Z",
       "listed_text": null,
       "listed_at": null,
@@ -586,7 +586,7 @@
       "value_flags": [
         "rich_vs_small_lot_comps"
       ],
-      "deals_notes": "About PEN607/m² — above typical Tarapoto lote comps (~PEN45–100/m²) and the discounted Shanao lot (~PEN20/m²). Clues: Jiron San Martín N; San Martín N.",
+      "deals_notes": "Unos PEN607/m² — por encima de lotes típicos en Tarapoto (~PEN45–100/m²) y del lote rebajado en Shanao (~PEN20/m²). Pistas: Jiron San Martín N; San Martín N.",
       "scraped_at": "2026-09-13T20:19:10.261Z",
       "listed_text": null,
       "listed_at": null,
@@ -618,7 +618,7 @@
       "value_flags": [
         "free_or_contact_price"
       ],
-      "deals_notes": "Shown as Free/PEN0. On Marketplace this is usually contact-for-price, not an actual gift of the land.",
+      "deals_notes": "Aparece como Gratis/PEN0. En Marketplace suele significar “consultar precio”, no que el terreno sea regalado.",
       "scraped_at": "2026-09-13T20:19:34.876Z",
       "listed_text": null,
       "listed_at": null,
@@ -659,7 +659,7 @@
       "value_flags": [
         "free_or_contact_price"
       ],
-      "deals_notes": "Shown as Free/PEN0. On Marketplace this is usually contact-for-price, not an actual gift of the land. Clues: FILO DE CARRETERA; CARRETERA + OJO DE AGUA 🚨 ¡OPORTUNIDAD DE INVERS; OJO DE AGUA; Título.",
+      "deals_notes": "Aparece como Gratis/PEN0. En Marketplace suele significar “consultar precio”, no que el terreno sea regalado. Pistas: FILO DE CARRETERA; CARRETERA + OJO DE AGUA 🚨 ¡OPORTUNIDAD DE INVERS; OJO DE AGUA; Título.",
       "scraped_at": "2026-09-13T20:19:58.945Z",
       "listed_text": null,
       "listed_at": null,
@@ -738,7 +738,7 @@
       "value_flags": [
         "premium_vs_area"
       ],
-      "deals_notes": "About PEN285,714/ha — above the ~PEN47k/ha Lamas 18 ha agricultural comp; check if it includes house, title, mechanization, or roadside.",
+      "deals_notes": "Unos PEN285,714/ha — por encima de ~PEN47k/ha (comp. agrícola 18 ha en Lamas); revisar si incluye casa, título, mecanización o frente a carretera.",
       "scraped_at": "2026-09-13T20:20:48.525Z",
       "listed_text": null,
       "listed_at": null,
@@ -784,7 +784,7 @@
       "value_flags": [
         "placeholder_or_unusually_low_price"
       ],
-      "deals_notes": "Asking PEN4 is not a credible total for the claimed parcel (typical Lamas/Tarapoto land is thousands to hundreds of thousands). Likely omitted zeros or a message-me placeholder. Clues: Carretera Aucaloma San Antonio de Cumbaza Entrand; Quebrada Casi 4 Hectáreas a 15 minutos de Tarapo; Aucaloma.",
+      "deals_notes": "El precio PEN4 no es creíble como total del terreno (en Lamas/Tarapoto suele ir de miles a cientos de miles). Probable precio provisional o ceros omitidos; conviene preguntar. Pistas: Carretera Aucaloma San Antonio de Cumbaza Entrand; Quebrada Casi 4 Hectáreas a 15 minutos de Tarapo; Aucaloma.",
       "scraped_at": "2026-09-13T20:21:13.915Z",
       "listed_text": null,
       "listed_at": null,
@@ -825,7 +825,7 @@
         "san Roque de cumbaza"
       ],
       "value_flags": [],
-      "deals_notes": "Clues: san Roque de cumbaza.",
+      "deals_notes": "Pistas: san Roque de cumbaza.",
       "scraped_at": "2026-09-13T20:21:39.277Z",
       "listed_text": null,
       "listed_at": null,
@@ -864,7 +864,7 @@
       "value_flags": [
         "placeholder_or_unusually_low_price"
       ],
-      "deals_notes": "Asking PEN1 is not a credible total for the claimed parcel (typical Lamas/Tarapoto land is thousands to hundreds of thousands). Likely omitted zeros or a message-me placeholder. Clues: quebrada DISPONIBLE EN ARRIENDO / USUFRUCTO A LA; Ojos de Agua.",
+      "deals_notes": "El precio PEN1 no es creíble como total del terreno (en Lamas/Tarapoto suele ir de miles a cientos de miles). Probable precio provisional o ceros omitidos; conviene preguntar. Pistas: quebrada DISPONIBLE EN ARRIENDO / USUFRUCTO A LA; Ojos de Agua.",
       "scraped_at": "2026-09-13T20:22:04.304Z",
       "listed_text": null,
       "listed_at": null,
@@ -902,7 +902,7 @@
         "Carretera Marginal 🛣️ La carretera pasa por todo"
       ],
       "value_flags": [],
-      "deals_notes": "Clues: Carretera Marginal 🛣️ La carretera pasa por todo.",
+      "deals_notes": "Pistas: Carretera Marginal 🛣️ La carretera pasa por todo.",
       "scraped_at": "2026-09-13T20:22:28.491Z",
       "listed_text": null,
       "listed_at": null,
@@ -942,7 +942,7 @@
       "value_flags": [
         "premium_vs_area"
       ],
-      "deals_notes": "About PEN280,000/ha — above the ~PEN47k/ha Lamas 18 ha agricultural comp; check if it includes house, title, mechanization, or roadside. Clues: Título.",
+      "deals_notes": "Unos PEN280,000/ha — por encima de ~PEN47k/ha (comp. agrícola 18 ha en Lamas); revisar si incluye casa, título, mecanización o frente a carretera. Pistas: Título.",
       "scraped_at": "2026-09-13T20:22:53.401Z",
       "listed_text": null,
       "listed_at": null,
@@ -983,7 +983,7 @@
       "value_flags": [
         "cheap_vs_area"
       ],
-      "deals_notes": "About PEN417/ha. Nearby comps: Lamas 18 ha agricultural at PEN850,000 (~PEN47k/ha); mechanized 9 ha near Tarapoto at PEN1.4M (~PEN156k/ha). This is cheap if the area claim is real. Clues: carretera pasa directamente por medio del fundo,; título; ZAPATERO.",
+      "deals_notes": "Unos PEN417/ha. Referencias: 18 ha agrícolas en Lamas a PEN850,000 (~PEN47k/ha); 9 ha mecanizadas cerca de Tarapoto a PEN1.4M (~PEN156k/ha). Sale barato si el área es real. Pistas: carretera pasa directamente por medio del fundo,; título; ZAPATERO.",
       "scraped_at": "2026-09-13T20:23:17.701Z",
       "listed_text": null,
       "listed_at": null,
@@ -1022,7 +1022,7 @@
       "value_flags": [
         "seller_says_bargain"
       ],
-      "deals_notes": "Seller copy uses remato/ocasión language. Clues: Título; banda de shilcayo.",
+      "deals_notes": "El anuncio usa lenguaje de remate/ocasión. Pistas: Título; banda de shilcayo.",
       "scraped_at": "2026-09-13T20:23:42.218Z",
       "listed_text": null,
       "listed_at": null,
@@ -1058,7 +1058,7 @@
       "value_flags": [
         "price_drop"
       ],
-      "deals_notes": "Grid price drop: PEN12,000 reduced from PEN15,000.",
+      "deals_notes": "Bajada de precio en el listado: PEN12,000 (antes PEN15,000).",
       "scraped_at": "2026-09-13T20:24:06.077Z",
       "listed_text": null,
       "listed_at": null,
@@ -1106,7 +1106,7 @@
       "value_flags": [
         "cheap_vs_area"
       ],
-      "deals_notes": "About PEN34/ha. Nearby comps: Lamas 18 ha agricultural at PEN850,000 (~PEN47k/ha); mechanized 9 ha near Tarapoto at PEN1.4M (~PEN156k/ha). This is cheap if the area claim is real. Clues: CARRETERA CON BUEN ACCESO DIRECTO A LA PROPIEDAD; QUEBRADA EN VENTA - C; RIO MAYO; SUNARP; TITULO; MAMONAQUIHUA.",
+      "deals_notes": "Unos PEN34/ha. Referencias: 18 ha agrícolas en Lamas a PEN850,000 (~PEN47k/ha); 9 ha mecanizadas cerca de Tarapoto a PEN1.4M (~PEN156k/ha). Sale barato si el área es real. Pistas: CARRETERA CON BUEN ACCESO DIRECTO A LA PROPIEDAD; QUEBRADA EN VENTA - C; RIO MAYO; SUNARP; TITULO; MAMONAQUIHUA.",
       "scraped_at": "2026-09-13T20:24:30.880Z",
       "listed_text": null,
       "listed_at": null,
@@ -1176,7 +1176,7 @@
       "value_flags": [
         "placeholder_or_unusually_low_price"
       ],
-      "deals_notes": "Asking PEN1 is not a credible total for the claimed parcel (typical Lamas/Tarapoto land is thousands to hundreds of thousands). Likely omitted zeros or a message-me placeholder.",
+      "deals_notes": "El precio PEN1 no es creíble como total del terreno (en Lamas/Tarapoto suele ir de miles a cientos de miles). Probable precio provisional o ceros omitidos; conviene preguntar.",
       "scraped_at": "2026-09-13T20:25:21.210Z",
       "listed_text": null,
       "listed_at": null,
@@ -1216,7 +1216,7 @@
       "value_flags": [
         "cheap_vs_area"
       ],
-      "deals_notes": "About PEN0.3/m². Lamas urban ~8,938 m² asks PEN480–500k (~PEN54–56/m²); Shanao 2,225 m² was cut to PEN45k (~PEN20/m²); Tarapoto small lots often PEN45–100/m². This is cheap vs those comps if size is real. Clues: PUCAYACU; Banda de Shilcayo; 3 de Octubre.",
+      "deals_notes": "Unos PEN0.3/m². Urbanos en Lamas (~8,938 m²) piden PEN480–500k (~PEN54–56/m²); Shanao 2,225 m² bajó a PEN45k (~PEN20/m²); lotes chicos en Tarapoto suelen PEN45–100/m². Sale barato frente a eso si el área es real. Pistas: PUCAYACU; Banda de Shilcayo; 3 de Octubre.",
       "scraped_at": "2026-09-13T20:25:46.160Z",
       "listed_text": null,
       "listed_at": null,
@@ -1257,7 +1257,7 @@
       "value_flags": [
         "placeholder_or_unusually_low_price"
       ],
-      "deals_notes": "Asking PEN1 is not a credible total for the claimed parcel (typical Lamas/Tarapoto land is thousands to hundreds of thousands). Likely omitted zeros or a message-me placeholder. Clues: SUNARP; Título.",
+      "deals_notes": "El precio PEN1 no es creíble como total del terreno (en Lamas/Tarapoto suele ir de miles a cientos de miles). Probable precio provisional o ceros omitidos; conviene preguntar. Pistas: SUNARP; Título.",
       "scraped_at": "2026-09-13T20:26:10.178Z",
       "listed_text": null,
       "listed_at": null,
@@ -1293,7 +1293,7 @@
       "value_flags": [
         "seller_says_bargain"
       ],
-      "deals_notes": "Seller copy uses remato/ocasión language.",
+      "deals_notes": "El anuncio usa lenguaje de remate/ocasión.",
       "scraped_at": "2026-09-13T20:26:34.525Z",
       "listed_text": null,
       "listed_at": null,
@@ -1371,7 +1371,7 @@
         "Aucaloma"
       ],
       "value_flags": [],
-      "deals_notes": "Clues: Aucaloma.",
+      "deals_notes": "Pistas: Aucaloma.",
       "scraped_at": "2026-09-13T20:27:23.594Z",
       "listed_text": null,
       "listed_at": null,
@@ -1407,7 +1407,7 @@
         "título"
       ],
       "value_flags": [],
-      "deals_notes": "Clues: título.",
+      "deals_notes": "Pistas: título.",
       "scraped_at": "2026-09-13T20:27:48.482Z",
       "listed_text": null,
       "listed_at": null,
@@ -1445,7 +1445,7 @@
       "value_flags": [
         "free_or_contact_price"
       ],
-      "deals_notes": "Shown as Free/PEN0. On Marketplace this is usually contact-for-price, not an actual gift of the land.",
+      "deals_notes": "Aparece como Gratis/PEN0. En Marketplace suele significar “consultar precio”, no que el terreno sea regalado.",
       "scraped_at": "2026-09-13T20:28:12.536Z",
       "listed_text": null,
       "listed_at": null,
@@ -1521,7 +1521,7 @@
         "price_drop",
         "placeholder_or_unusually_low_price"
       ],
-      "deals_notes": "Grid price drop: PEN148 reduced from PEN2,000. Asking PEN148 is not a credible total for the claimed parcel (typical Lamas/Tarapoto land is thousands to hundreds of thousands). Likely omitted zeros or a message-me placeholder. Clues: título.",
+      "deals_notes": "Bajada de precio en el listado: PEN148 (antes PEN2,000). El precio PEN148 no es creíble como total del terreno (en Lamas/Tarapoto suele ir de miles a cientos de miles). Probable precio provisional o ceros omitidos; conviene preguntar. Pistas: título.",
       "scraped_at": "2026-09-13T20:29:02.553Z",
       "listed_text": null,
       "listed_at": null,
