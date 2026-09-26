@@ -25,19 +25,19 @@
     background: var(--bg); color: var(--text); height: 100vh; height: 100dvh; display: flex; flex-direction: column; overflow: hidden;
   }
   header.topbar {
-    padding: 8px 12px; background: var(--panel); border-bottom: 1px solid var(--border);
-    display: flex; flex-wrap: nowrap; gap: 8px; align-items: center; justify-content: space-between;
+    padding: 12px 12px; background: var(--panel); border-bottom: 1px solid var(--border);
+    display: flex; flex-direction: column; gap: 8px; align-items: center; justify-content: center;
     flex-shrink: 0;
   }
   header.topbar h1 {
-    font-size: 1.05rem; margin: 0; font-weight: 700; letter-spacing: 0.01em;
-    line-height: 1.2; flex: 1; min-width: 0;
+    font-size: 1.6rem; margin: 0; font-weight: 800; letter-spacing: 0.01em;
+    line-height: 1.2; text-align: center;
   }
   header.topbar h1 .flag-1 { color: #3B6BFF; } /* azul bandera Lamas */
   header.topbar h1 .flag-2 { color: #F5E000; } /* amarillo */
   header.topbar h1 .flag-3 { color: #E10600; } /* rojo */
   .topbar-actions {
-    display: flex; flex-shrink: 0; gap: 8px; align-items: center;
+    display: flex; flex-shrink: 0; gap: 8px; align-items: center; justify-content: center;
   }
   .filters-toggle, .map-toggle {
     display: inline-flex;
@@ -182,14 +182,6 @@
   }
   .interest-row button.active-yes { background: #1e3d32; border-color: var(--good); color: var(--good); }
   .interest-row button.active-no { background: #3a2222; border-color: #e07171; color: #f0a0a0; }
-  .interest-backup { margin-top: 4px; }
-  .interest-backup-help {
-    margin: 0 0 8px; font-size: 0.78rem; line-height: 1.35; color: var(--muted);
-    text-transform: none; letter-spacing: 0; font-weight: 400;
-  }
-  .interest-backup-actions { display: flex; flex-wrap: wrap; gap: 8px; }
-  .interest-backup-actions button { height: auto; min-height: 36px; }
-  .interest-backup-status { margin-top: 6px; font-size: 0.78rem; color: var(--accent); text-transform: none; letter-spacing: 0; }
 
   .pill.lote { background: #2a3a4a; color: #9fd0ff; }
   .seller-line { font-size: 0.78rem; color: var(--muted); margin: 4px 0 0; }
@@ -297,11 +289,11 @@
       overflow: hidden;
     }
     header.topbar {
-      padding: 6px 10px;
-      gap: 8px;
+      padding: 8px 10px;
+      gap: 6px;
       flex-shrink: 0;
     }
-    header.topbar h1 { font-size: 0.95rem; line-height: 1.2; }
+    header.topbar h1 { font-size: 1.2rem; line-height: 1.2; }
     .filters-toggle, .map-toggle {
       display: inline-flex;
       align-items: center;
@@ -784,10 +776,6 @@
       <option value="rated">Con rating</option>
     </select>
   </label>
-  <label class="span-2">Buscar vendedor
-    <input type="search" id="sellerQuery" list="sellerDatalist" placeholder="nombre del vendedor" autocomplete="off" />
-    <datalist id="sellerDatalist"></datalist>
-  </label>
   <div class="span-2 filter-checks-wrap" id="interestFilter">
     <div class="filter-label">Interés <span style="font-weight:400;text-transform:none;opacity:.75">(combinable)</span></div>
     <div class="filter-checks">
@@ -795,16 +783,6 @@
       <label class="check"><input type="checkbox" name="interest" value="not_interested" /> No me interesa</label>
       <label class="check"><input type="checkbox" name="interest" value="unmarked" /> Sin marcar</label>
     </div>
-  </div>
-  <div class="span-2 interest-backup">
-    <div class="filter-label">Respaldo de marcas</div>
-    <p class="interest-backup-help">Las marcas se guardan en este navegador (no las borra un deploy). Exporta un JSON para no perderlas si limpia datos del sitio o cambia de dispositivo.</p>
-    <div class="interest-backup-actions">
-      <button type="button" class="secondary" id="interestExport">Exportar marcas</button>
-      <button type="button" class="secondary" id="interestImportBtn">Importar marcas</button>
-      <input type="file" id="interestImportFile" accept="application/json,.json" hidden />
-    </div>
-    <div id="interestBackupStatus" class="interest-backup-status" aria-live="polite"></div>
   </div>
   <div class="filter-actions">
     <button type="button" id="apply">Aplicar</button>
