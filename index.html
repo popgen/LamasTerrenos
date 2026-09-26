@@ -198,7 +198,12 @@
   #listingPage .lp-seller h3 { margin: 0 0 6px; font-size: 13px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; }
 
   .pill.terreno { background: #2e3a2a; color: #b7e0a8; }
-  .card.dimmed { opacity: 0.45; }
+  .card.dimmed { opacity: 0.55; filter: grayscale(0.9); }
+  .card.interested {
+    border-color: var(--warn) !important;
+    box-shadow: 0 0 0 1px rgba(240,180,41,0.45), 0 8px 24px rgba(0,0,0,0.28);
+  }
+  .card.interested::before { background: var(--warn) !important; }
 
   body {
     min-height: 100dvh;
@@ -1239,6 +1244,7 @@ function cardHtml(l, { openDesc = false } = {}) {
   else pills.push('<span class="pill">Parcela no clara</span>');
   const interest = getInterest(l.id);
   const dim = interest === 'not_interested' ? ' dimmed' : '';
+  const fav = interest === 'interested' ? ' interested' : '';
   const neu = l.is_new ? ' is-new' : '';
   const descClass = openDesc ? 'desc full-ad' : 'desc clamp full-ad';
   const toggleLabel = openDesc ? 'Ocultar anuncio' : 'Ver anuncio completo';
@@ -1253,7 +1259,7 @@ function cardHtml(l, { openDesc = false } = {}) {
     ? '<div class="thumb-wrap"><img src="' + esc(fotos[0]) + '" alt="" loading="lazy" decoding="async" /></div>'
     : '<div class="thumb-wrap thumb-empty" aria-hidden="true"></div>');
   const tileFace = '<div class="tile-face">' + thumbInner + basicsHtml + '</div>';
-  return '<article class="card' + dim + neu + '" id="card-' + esc(l.id) + '" data-id="' + esc(l.id) + '">' +
+  return '<article class="card' + dim + fav + neu + '" id="card-' + esc(l.id) + '" data-id="' + esc(l.id) + '">' +
     tileFace +
     '<h2 class="card-title">' + esc(l.title) + '</h2>' +
     '<div class="row price-row"><span class="price' + (l.price_unknown ? ' unknown' : '') + '">' + esc(l.price_display) + '</span>' +
