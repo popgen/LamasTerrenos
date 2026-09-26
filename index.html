@@ -723,7 +723,7 @@
 <header class="topbar">
   <h1 id="siteTitle"><span class="flag-1">Terrenos</span><span class="flag-2"> cerca de </span><span class="flag-3">Lamas</span></h1>
   <div class="topbar-actions">
-    <button type="button" class="map-toggle" id="mapToggle" aria-pressed="true">Ocultar mapa</button>
+    <button type="button" class="map-toggle" id="mapToggle" aria-pressed="false">Mostrar mapa</button>
     <button type="button" class="filters-toggle" id="filtersToggle" aria-expanded="false">Filtros</button>
   </div>
 </header>
@@ -815,7 +815,7 @@
   <button type="button" id="tabMap" class="active" role="tab" aria-selected="true">Mapa</button>
   <button type="button" id="tabList" role="tab" aria-selected="false">Anuncios</button>
 </div>
-<main id="mainPanes" class="show-map">
+<main id="mainPanes" class="show-map map-off">
   <div class="map-wrap">
     <div id="map"></div>
     <div class="detail-pane" id="detailPane" hidden>
@@ -1569,7 +1569,7 @@ const tabMap = document.getElementById('tabMap');
 const tabList = document.getElementById('tabList');
 const mapToggle = document.getElementById('mapToggle');
 const MAP_PREF_KEY = 'lamasTerrenosMapVisible';
-let mapVisible = localStorage.getItem(MAP_PREF_KEY) !== '0';
+let mapVisible = localStorage.getItem(MAP_PREF_KEY) === '1';
 
 function setMobileView(which) {
   if (!mainPanes) return;
