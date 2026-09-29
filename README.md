@@ -26,3 +26,15 @@ Si Facebook trae un texto tipo `2 days ago in Tarapoto`, se guarda `listed_at` y
 4. Filtros → Novedad → «Solo nuevos de hoy». La lista y los pines verdes son únicamente anuncios vistos por primera vez hoy en Perú. Mañana, antes del digest, esos mismos anuncios ya no deben salir.
 5. Orden «Precio ↑»: los primeros precios son montos reales. PEN1 / Gratis no encabezan la lista; dicen «Precio desconocido».
 6. Orden «Más reciente»: un anuncio «hace 11 semanas» queda detrás de uno «hace 1 día», aunque se haya vuelto a scrapear hoy.
+
+## Tipo, zona y ubicación estimada (fase 1 multi-área)
+
+Cada anuncio trae:
+
+- **Tipo**: lote, terreno, casa, casa con terreno, finca, chacra, quinta/casa de campo, local/comercial, departamento u otro (según título, descripción y categoría de Facebook). Filtro «Tipo» (varios a la vez).
+- **Zona**: Lamas–Tarapoto, Moyobamba–Rioja, Alto Mayo (otros), Yurimaguas, Chachapoyas, Huallaga (Picota–Bellavista), Juanjuí–Saposoa, El Dorado / Sisa, Otros / lejos. Filtro «Zona» y orden «Zona».
+- **Precisión de ubicación**: *exacta* (coordenadas o enlace de mapa en el anuncio), *aproximada* (sector/caserío geocodificado con OpenStreetMap), *distrito*, *solo ciudad* (la ciudad que muestra Facebook). En el mapa: relleno sólido = exacta, anillo = aproximada, tenue = distrito, gris punteado = solo ciudad (ver leyenda). La distancia es en línea recta desde la plaza de Lamas; Chachapoyas y lo muy lejano se marcan «Fuera de 200 km por carretera».
+- **Posible repetido**: mismo vendedor con título y precio casi iguales, o las mismas fotos. No se borran; el filtro «Posibles repetidos → Agrupar» muestra uno por grupo.
+- En la ficha, «Datos del anuncio»: medidas, título de propiedad, agua, luz, acceso, sector/caserío, categoría y ubicación de Facebook, búsquedas donde apareció e historial de precio.
+
+Los filtros actualizan juntos la lista, el mapa y Anterior/Siguiente. Las marcas de interés (y Exportar/Importar en «Respaldo de marcas», dentro de Filtros) no cambian de formato.
