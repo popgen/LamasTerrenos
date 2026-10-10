@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-PE">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="lamas-ui" content="interest-backup-v1" />
 <meta name="theme-color" content="#161d25" />
-<title>CompraTerrenos.pe — terrenos, lotes y chacras en todo el Perú</title>
-<meta name="description" content="990 anuncios de terrenos, lotes, chacras y casas en el Perú, con precio real. Actualizado a diario. Guía de compra segura y verificación en SUNARP." />
+<title>Terrenos en venta en Tarapoto, Moyobamba y todo el Perú | CompraTerrenos.pe</title>
+<link rel="alternate" hreflang="es-PE" href="https://bienvenidoalamas.com/" /><link rel="alternate" hreflang="x-default" href="https://bienvenidoalamas.com/" />
+<meta name="description" content="910 terrenos, lotes, chacras y casas en venta en San Martín y todo el Perú, con precio real. Busca lotes baratos en Tarapoto, Moyobamba o Lamas. Actualizado a diario. Guía de compra segura y verificación en SUNARP." />
 <link rel="canonical" href="https://bienvenidoalamas.com/" />
 <meta property="og:type" content="website" /><meta property="og:site_name" content="CompraTerrenos.pe" /><meta property="og:locale" content="es_PE" />
 <meta property="og:title" content="CompraTerrenos.pe — terrenos, lotes y chacras en todo el Perú" />
-<meta property="og:description" content="990 anuncios de terrenos en el Perú. Filtra por zona, tipo, precio y tamaño, y revisa la situación legal antes de comprar." />
+<meta property="og:description" content="910 anuncios de terrenos en el Perú. Filtra por zona, tipo, precio y tamaño, y revisa la situación legal antes de comprar." />
 <meta property="og:url" content="https://bienvenidoalamas.com/" /><meta property="og:image" content="https://bienvenidoalamas.com/listings/834122476257511/01.jpg" /><meta name="twitter:card" content="summary_large_image" />
-<link rel="preload" href="data/index.json?v=1791598265698" as="fetch" crossorigin="anonymous" />
+<link rel="preload" href="data/index.json?v=1791605503368" as="fetch" crossorigin="anonymous" />
 <style>
   :root {
     --bg: #0e1318;
@@ -585,7 +586,7 @@
   <div class="search-wrap" role="search">
     <span class="search-icon" aria-hidden="true">🔍</span>
     <label for="textQuery" class="sr-only">Buscar anuncios</label>
-    <input type="search" id="textQuery" placeholder="Buscar: sector, caserío, título, vendedor…" autocomplete="off" enterkeyhint="search" />
+    <input type="search" id="textQuery" placeholder="Buscar: chacra Tarapoto, lotes 20 mil Moyobamba, 1 ha…" autocomplete="off" enterkeyhint="search" />
     <button type="button" class="search-clear" id="textQueryClear" aria-label="Borrar búsqueda" hidden>✕</button>
   </div>
   <div class="topbar-actions">
@@ -600,11 +601,11 @@
   <label class="qsel"><span class="sr-only">Tipo</span><select id="qTipo"></select></label>
   <label class="qsel"><span class="sr-only">Precio</span><select id="qPrecio">
     <option value="">Cualquier precio</option>
-    <option value="-20000">Hasta PEN 20 mil</option>
-    <option value="20000-50000">PEN 20–50 mil</option>
-    <option value="50000-100000">PEN 50–100 mil</option>
-    <option value="100000-300000">PEN 100–300 mil</option>
-    <option value="300000-">Más de PEN 300 mil</option>
+    <option value="-20000">Hasta S/ 20 mil</option>
+    <option value="20000-50000">S/ 20–50 mil</option>
+    <option value="50000-100000">S/ 50–100 mil</option>
+    <option value="100000-300000">S/ 100–300 mil</option>
+    <option value="300000-">Más de S/ 300 mil</option>
     <option value="custom">Rango personalizado…</option>
   </select></label>
   <label class="qsel"><span class="sr-only">Tamaño</span><select id="qTam">
@@ -624,7 +625,7 @@
 <div class="results-bar">
   <div class="result-count" id="resultCount" aria-live="polite">Cargando anuncios…</div>
   <div class="active-chips" id="activeChips" aria-label="Filtros activos"></div>
-  <a class="inc-link" id="incLink" href="incompleta.html" title="Anuncios sin precio real o sin datos">+ 2355 con información incompleta</a>
+  <a class="inc-link" id="incLink" href="incompleta.html" title="Anuncios sin precio real o sin datos">+ 2435 con información incompleta</a>
   <label class="sort-wrap"><span>Ordenar</span>
     <select id="sortBy" aria-label="Ordenar por">
       <option value="distance">Distancia</option>
@@ -657,7 +658,7 @@
       <div class="filter-checks-wrap" id="tipoFilter"><div class="filter-checks multi" id="tipoChecks"></div></div>
     </section>
     <section class="fsec" id="secPrecio">
-      <h3>Precio (PEN)</h3>
+      <h3>Precio (S/)</h3>
       <div class="presets" data-presets="price"></div>
       <label>Mínimo<input type="number" id="minPrice" min="0" step="1000" placeholder="cualquiera" inputmode="numeric" /></label>
       <label>Máximo<input type="number" id="maxPrice" min="0" step="1000" placeholder="cualquiera" inputmode="numeric" /></label>
@@ -748,7 +749,8 @@
     <div class="map-preview" id="mapPreview" hidden></div>
     <div class="detail-pane" id="detailPane" hidden><div class="detail-pane-inner" id="detailPaneInner"></div></div>
   </div>
-  <div class="list-pane" id="list" tabindex="-1"><div class="list-skel">Cargando anuncios…</div></div>
+  <div class="list-pane" id="list" tabindex="-1"><div class="list-skel">Cargando anuncios…</div><footer class="seo-links" id="seoFoot" aria-label="Búsquedas populares"><h2>Búsquedas populares</h2><div><a href="terrenos/san-martin/">Terrenos en venta en San Martín</a><a href="terrenos/tarapoto/">Terrenos en venta en Tarapoto</a><a href="lotes/san-martin/">Lotes en venta en San Martín</a><a href="lotes/tarapoto/">Lotes en venta en Tarapoto</a><a href="terrenos/moyobamba/">Terrenos en venta en Moyobamba</a><a href="terrenos/ucayali/">Terrenos en venta en Ucayali</a><a href="chacras/san-martin/">Chacras en venta en San Martín</a><a href="terrenos/la-banda-de-shilcayo/">Terrenos en venta en La Banda de Shilcayo</a><a href="terrenos/cajamarca/">Terrenos en venta en Cajamarca</a><a href="terrenos/lambayeque/">Terrenos en venta en Lambayeque</a><a href="terrenos/loreto/">Terrenos en venta en Loreto</a><a href="terrenos/calleria/">Terrenos en venta en Callería</a><a href="terrenos/lamas/">Terrenos en venta en Lamas</a><a href="lotes/moyobamba/">Lotes en venta en Moyobamba</a><a href="terrenos/la-libertad/">Terrenos en venta en La Libertad</a><a href="lotes/ucayali/">Lotes en venta en Ucayali</a><a href="lotes/cajamarca/">Lotes en venta en Cajamarca</a><a href="casas/san-martin/">Casas en venta en San Martín</a><a href="terrenos/morales/">Terrenos en venta en Morales</a><a href="lotes/la-banda-de-shilcayo/">Lotes en venta en La Banda de Shilcayo</a><a href="lotes/lambayeque/">Lotes en venta en Lambayeque</a><a href="terrenos/ancash/">Terrenos en venta en Áncash</a><a href="terrenos/huanuco/">Terrenos en venta en Huánuco</a><a href="terrenos/rioja/">Terrenos en venta en Rioja</a><a href="terrenos/yurimaguas/">Terrenos en venta en Yurimaguas</a><a href="terrenos/chiclayo/">Terrenos en venta en Chiclayo</a><a href="lotes/calleria/">Lotes en venta en Callería</a><a href="lotes/la-libertad/">Lotes en venta en La Libertad</a><a href="terrenos/amazonas/">Terrenos en venta en Amazonas</a><a href="lotes/lamas/">Lotes en venta en Lamas</a><a href="terrenos/trujillo/">Terrenos en venta en Trujillo</a><a href="terrenos/chachapoyas/">Terrenos en venta en Chachapoyas</a><a href="lotes/ancash/">Lotes en venta en Áncash</a><a href="terrenos/juanjui/">Terrenos en venta en Juanjuí</a><a href="terrenos/piura/">Terrenos en venta en Piura</a><a href="lotes/morales/">Lotes en venta en Morales</a></div><h2>Terrenos y lotes baratos</h2><div><a href="terrenos/san-martin/menos-de-50-mil-soles/">Terrenos en San Martín por menos de 50 mil soles</a><a href="terrenos/san-martin/baratos/">Terrenos baratos en San Martín</a><a href="lotes/san-martin/menos-de-50-mil-soles/">Lotes en San Martín por menos de 50 mil soles</a><a href="terrenos/san-martin/menos-de-20-mil-soles/">Terrenos en San Martín por menos de 20 mil soles</a><a href="terrenos/tarapoto/menos-de-50-mil-soles/">Terrenos en Tarapoto por menos de 50 mil soles</a><a href="terrenos/tarapoto/baratos/">Terrenos baratos en Tarapoto</a><a href="lotes/san-martin/baratos/">Lotes baratos en San Martín</a><a href="lotes/tarapoto/menos-de-50-mil-soles/">Lotes en Tarapoto por menos de 50 mil soles</a><a href="terrenos/tarapoto/menos-de-20-mil-soles/">Terrenos en Tarapoto por menos de 20 mil soles</a><a href="lotes/san-martin/menos-de-20-mil-soles/">Lotes en San Martín por menos de 20 mil soles</a><a href="terrenos/moyobamba/menos-de-50-mil-soles/">Terrenos en Moyobamba por menos de 50 mil soles</a><a href="terrenos/ucayali/menos-de-50-mil-soles/">Terrenos en Ucayali por menos de 50 mil soles</a></div><p>Guías: <a href="compra-segura.html">Compra segura</a> · <a href="comprar-desde-el-extranjero.html">Comprar desde el extranjero</a> · <a href="publicar.html">Publica gratis</a></p></footer>
+<style>.seo-links{grid-column:1/-1;max-width:1200px;margin:24px auto 0;padding:16px 18px 40px;border-top:1px solid var(--border);color:var(--muted);font-size:.86rem}.seo-links h2{font-size:.95rem;margin:12px 0 6px;color:var(--text)}.seo-links div{display:flex;flex-wrap:wrap;gap:6px 14px}.seo-links a{color:var(--muted)}</style></div>
 </main>
 <button type="button" class="view-fab" id="viewFab" aria-label="Cambiar entre mapa y lista">🗺 Mapa</button>
 <footer class="site-footer sr-only" aria-hidden="true">
@@ -774,6 +776,7 @@
   </div>
 </div>
 <script src="viewer-rules.js"></script>
+<script src="es-search.js"></script>
 <script>
 const DATA = { listings: [], generated_at: null, lamas: { lat: -6.4236, lng: -76.5225, name: 'Lamas' }, today_lima: null, new_count: 0 };
 const dealFlags = new Set(['price_drop','cheap_vs_area','seller_says_bargain','corner_lot','rich_vs_small_lot_comps']);
@@ -1123,7 +1126,7 @@ function refreshDerivedNow(now) {
     l.is_new = isNewListing(l, moment);
     if (l.is_new) n++;
     const pv = priceView(l);
-    l.price_display = pv.display;
+    l.price_display = esPrice(pv.display);   // PEN43,000 → S/ 43,000 · "/ Month" → "/ mes"
     l.sort_price = pv.sort;
     l.price_unknown = pv.unknown;
   }
@@ -1233,8 +1236,9 @@ function filtered() {
   const repostMode = document.getElementById('repostMode')?.value || 'all';
   const opMode = document.getElementById('operacionFilter')?.value || 'all';
   const farMode = document.getElementById('farFilter')?.value || 'all';
-  const textQ = foldText(document.getElementById('textQuery')?.value || '').trim();
-  const textTerms = textQ ? textQ.split(/\s+/).filter(Boolean) : [];
+  const textQ = (document.getElementById('textQuery')?.value || '').trim();
+  const sQ = textQ ? ESSearch.parse(textQ) : null;   // búsqueda en español: sinónimos, alias, "20 mil", "1 ha", errores comunes
+  const textTerms = sQ && !ESSearch.isEmpty(sQ) ? [1] : [];
   if (textTerms.length && !searchIdx) loadSearchIndex();
   refreshDerived();
   let rows = DATA.listings.slice();
@@ -1276,7 +1280,7 @@ function filtered() {
     if (sellerMode === 'rated' && l.seller_rating == null) return false;
     if (textTerms.length) {
       const hay = haystackOf(l);
-      if (!textTerms.every(t => hay.includes(t))) return false;
+      if (!ESSearch.match(sQ, hay, priceView(l).sort, sizeM2(l), l.tipo)) return false;
     }
     const sq = foldText(document.getElementById('sellerQuery')?.value || '');
     if (sq) {
@@ -1285,7 +1289,7 @@ function filtered() {
     }
     return true;
   });
-  const sortBy = document.getElementById('sortBy').value;
+  const sortBy = (sQ && sQ.cheap) ? 'price_asc' : document.getElementById('sortBy').value;   // "baratos" → más baratos primero
   rows.sort((a, b) => {
     if (sortBy === 'best_offers') {
       const ds = offerScore(b) - offerScore(a);
@@ -1345,7 +1349,7 @@ function filtered() {
 function haystackOf(l) {
   if (searchIdx && searchIdx[l.id]) return searchIdx[l.id];
   if (l.__hay == null) {
-    l.__hay = foldText([l.title, l.place_label, l.seller_name, l.zona, TIPO_LABEL[l.tipo] || ''].filter(Boolean).join(' \n '));
+    l.__hay = foldText([l.title, l.place_label, l.seller_name, l.zona, TIPO_LABEL[l.tipo] || ''].filter(Boolean).join(' \n ')).replace(/\s+/g, ' ');
   }
   return l.__hay;
 }
@@ -1357,6 +1361,7 @@ function num(id) {
   return Number.isFinite(n) ? n : null;
 }
 
+function esPrice(s) { return String(s || '').replace(/\bPEN\s?/gi, 'S/ ').replace(/^\$\s?/, 'US$ ').replace(/\s*\/\s*month\b/i, ' / mes'); }
 function foldText(s) {
   return String(s || '').normalize('NFD').replace(/\p{M}/gu, '').toLowerCase();
 }
@@ -1547,6 +1552,9 @@ const PAGE_SIZE = 24;   // primer lote pequeño: el resto llega con scroll infin
 let renderRows = [];
 let renderShown = 0;
 let moreObserver = null;
+/* Enlaces SEO (HTML estático en #list): se guardan al arrancar y se vuelven a poner al final tras cada render. */
+let SEO_FOOT = document.getElementById('seoFoot');
+function seoFootToEnd(list) { if (!SEO_FOOT) SEO_FOOT = document.getElementById('seoFoot'); if (SEO_FOOT && list) list.appendChild(SEO_FOOT); }
 function appendCards(n) {
   const list = document.getElementById('list');
   if (!list) return;
@@ -1581,6 +1589,7 @@ function appendCards(n) {
       moreObserver.observe(more);
     }
   }
+  seoFootToEnd(list);
 }
 let rowIndex = new Map();
 let rowsValid = false;
@@ -1637,6 +1646,7 @@ function render() {
   if (!rows.length) {
     list.insertAdjacentHTML('beforeend', '<div class="empty">Ningún anuncio coincide con estos filtros.<br><button type="button" class="btn-secondary" id="emptyReset">Quitar todos los filtros</button></div>');
     document.getElementById('emptyReset')?.addEventListener('click', () => document.getElementById('reset').click());
+    seoFootToEnd(list);
     if (listingOpenId) updateListingBrowseControls(listingOpenId);
     return;
   }
@@ -1815,7 +1825,7 @@ function activeFilters() {
   if (tq) out.push({ label: 'Buscar: “' + tq + '”', clear: clearVal('textQuery', ''), search: true });
   for (const el of document.querySelectorAll('#zonaChecks input:checked')) out.push({ label: el.value, clear: () => { el.checked = false; } });
   for (const el of document.querySelectorAll('#tipoChecks input:checked')) out.push({ label: TIPO_LABEL[el.value] || el.value, clear: () => { el.checked = false; } });
-  const nums = [['maxDist', 'Hasta ', ' km'], ['minPrice', 'Desde PEN ', ''], ['maxPrice', 'Hasta PEN ', ''], ['minM2', 'Desde ', ' m²'], ['maxM2', 'Hasta ', ' m²']];
+  const nums = [['maxDist', 'Hasta ', ' km'], ['minPrice', 'Desde S/ ', ''], ['maxPrice', 'Hasta S/ ', ''], ['minM2', 'Desde ', ' m²'], ['maxM2', 'Hasta ', ' m²']];
   for (const [id, pre, suf] of nums) {
     const v = val(id);
     if (v !== '' && v != null) out.push({ label: pre + Number(v).toLocaleString('es-PE') + suf, clear: clearVal(id, '') });
@@ -1924,7 +1934,7 @@ function adSlotHtml(where) {
 }
 
 // ===== Terrenos Perú fase 1: datos bajo demanda, estado en URL, clusters, hoja de filtros =====
-const BUILD = '1791598265698';
+const BUILD = '1791605503368';
 const ZONA_SLUG = Object.fromEntries(ZONAS.map(z => [slugify(z), z]));
 const TIPO_SLUG = Object.fromEntries(TIPOS.map(t => [slugify(t), t]));
 function slugify(s) { return String(s).normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); }
@@ -2048,7 +2058,7 @@ function syncQuick() {
   set('qTam', !tHas ? '' : SIZE_PRESETS.some(p => p[0] === tk) ? tk : 'custom', tHas);
   // texto de "personalizado" con el rango real
   const fmtK = (n) => n >= 1000 ? (Math.round(n / 100) / 10).toLocaleString('es-PE') + ' mil' : String(n);
-  qp.querySelector('option[value="custom"]').textContent = pHas && qp.value === 'custom' ? 'PEN ' + (s.pmin ? fmtK(+s.pmin) : '0') + ' – ' + (s.pmax ? fmtK(+s.pmax) : '∞') : 'Rango personalizado…';
+  qp.querySelector('option[value="custom"]').textContent = pHas && qp.value === 'custom' ? 'S/ ' + (s.pmin ? fmtK(+s.pmin) : '0') + ' – ' + (s.pmax ? fmtK(+s.pmax) : '∞') : 'Rango personalizado…';
   qtam.querySelector('option[value="custom"]').textContent = tHas && qtam.value === 'custom' ? (s.tmin || 0) + ' – ' + (s.tmax || '∞') + ' m²' : 'Rango personalizado…';
   document.querySelectorAll('[data-range="price"]').forEach(b => b.classList.toggle('on', b.dataset.k === pk));
   document.querySelectorAll('[data-range="size"]').forEach(b => b.classList.toggle('on', b.dataset.k === tk));
@@ -2192,7 +2202,7 @@ function homeHeaderHtml(rows, s) {
     const med = prices.length ? prices[Math.floor(prices.length / 2)] : null;
     const nNew = rows.filter(l => l.is_new).length;
     return '<div class="zone-head"><h2>Terrenos en ' + esc(s.zona[0]) + '</h2><span class="zstats">' + rows.length + ' anuncios' +
-      (med ? ' · precio mediano PEN ' + Math.round(med).toLocaleString('es-PE') : '') + (nNew ? ' · <b style="color:var(--good)">' + nNew + ' nuevos hoy</b>' : '') + '</span>' +
+      (med ? ' · precio mediano S/ ' + Math.round(med).toLocaleString('es-PE') : '') + (nNew ? ' · <b style="color:var(--good)">' + nNew + ' nuevos hoy</b>' : '') + '</span>' +
       (onlyZona ? '<button type="button" data-home="1">← Todas las zonas</button>' : '') + '</div>' + adSlotHtml('zona');
   }
   const any = s.zona.length || s.tipo.length || s.q || s.pmin || s.pmax || s.tmin || s.tmax || s.km || s.marca.length ||
@@ -2225,7 +2235,7 @@ document.addEventListener('click', async (e) => {
   if (!b) return;
   const url = b.getAttribute('data-copy-link');
   try {
-    if (navigator.share && isMobile()) await navigator.share({ url, title: document.getElementById('lpTopTitle')?.textContent || 'Terrenos Perú' });
+    if (navigator.share && isMobile()) await navigator.share({ url, title: document.getElementById('lpTopTitle')?.textContent || 'CompraTerrenos.pe' });
     else { await navigator.clipboard.writeText(url); b.textContent = '¡Enlace copiado!'; setTimeout(() => { b.textContent = 'Copiar enlace'; }, 1600); }
   } catch (_) {}
 });
@@ -2448,7 +2458,7 @@ function factsHtml(l) {
   add('Encontrado en búsquedas', esc((l.found_in_areas || []).map(a => AREA_LABEL[a] || a).join(', ')));
   const hist = (l.price_history || []).filter(h => h && h.price != null);
   if (hist.length > 1) {
-    add('Historial de precio', '<ul class="lp-hist">' + hist.map(h => '<li>' + esc((h.display || ((h.currency || 'PEN') + ' ' + h.price))) + (h.at ? ' — ' + esc(formatLimaDate(parseInstant(h.at))) : '') + '</li>').join('') + '</ul>');
+    add('Historial de precio', '<ul class="lp-hist">' + hist.map(h => '<li>' + esc(esPrice(h.display || ((h.currency || 'PEN') + ' ' + h.price))) + (h.at ? ' — ' + esc(formatLimaDate(parseInstant(h.at))) : '') + '</li>').join('') + '</ul>');
   }
   if (l.repost_group) {
     if (!window.__repostIdx) { window.__repostIdx = new Map(); for (const x of DATA.listings) if (x.repost_group) { if (!__repostIdx.has(x.repost_group)) __repostIdx.set(x.repost_group, []); __repostIdx.get(x.repost_group).push(x); } }
