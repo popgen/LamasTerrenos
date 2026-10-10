@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T19:43:44.913Z",
+  "updated_at": "2026-10-10T01:24:15.128Z",
   "note": "first_seen_at per Marketplace id. Listings first seen on the current America/Lima calendar day are highlighted as Nuevo.",
   "ids": {
     "834122476257511": "2026-09-12T12:00:00.000Z",
@@ -3348,5 +3348,5 @@
     "966998982546318": "2026-09-29T17:57:51.720Z",
     "952158257652906": "2026-09-29T17:57:51.720Z"
   },
-  "today_lima": "2026-09-29"
+  "today_lima": "2026-10-09"
 }

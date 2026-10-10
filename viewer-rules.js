@@ -23,15 +23,18 @@
     return isNaN(t) ? null : t;
   }
 
+  var limaFmt = null;
   function limaDayKey(value) {
     var t = value instanceof Date ? value.getTime() : parseInstant(value);
     if (t == null || isNaN(t)) return '';
-    var parts = new Intl.DateTimeFormat('en-CA', {
+    /* Un solo formateador (crearlo por llamada costaba ~0.1 ms × miles de anuncios en cada filtro). */
+    if (!limaFmt) limaFmt = new Intl.DateTimeFormat('en-CA', {
       timeZone: LIMA,
       year: 'numeric',
       month: '2-digit',
       day: '2-digit'
-    }).formatToParts(new Date(t));
+    });
+    var parts = limaFmt.formatToParts(new Date(t));
     var y = '', m = '', d = '';
     for (var i = 0; i < parts.length; i++) {
       if (parts[i].type === 'year') y = parts[i].value;
