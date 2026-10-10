@@ -5,14 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="lamas-ui" content="interest-backup-v1" />
 <meta name="theme-color" content="#161d25" />
-<title>Terrenos Perú — lotes, terrenos y chacras en San Martín</title>
-<meta name="description" content="3345 anuncios de lotes, terrenos, chacras y casas en Lamas, Tarapoto, Moyobamba y alrededores. Actualizado a diario." />
+<title>CompraTerrenos.pe — terrenos, lotes y chacras en todo el Perú</title>
+<meta name="description" content="990 anuncios de terrenos, lotes, chacras y casas en el Perú, con precio real. Actualizado a diario. Guía de compra segura y verificación en SUNARP." />
 <link rel="canonical" href="https://bienvenidoalamas.com/" />
-<meta property="og:type" content="website" /><meta property="og:site_name" content="Terrenos Perú" /><meta property="og:locale" content="es_PE" />
-<meta property="og:title" content="Terrenos Perú — lotes, terrenos y chacras en San Martín" />
-<meta property="og:description" content="3345 anuncios en Lamas, Tarapoto, Moyobamba y alrededores. Filtra por zona, tipo, precio y tamaño." />
+<meta property="og:type" content="website" /><meta property="og:site_name" content="CompraTerrenos.pe" /><meta property="og:locale" content="es_PE" />
+<meta property="og:title" content="CompraTerrenos.pe — terrenos, lotes y chacras en todo el Perú" />
+<meta property="og:description" content="990 anuncios de terrenos en el Perú. Filtra por zona, tipo, precio y tamaño, y revisa la situación legal antes de comprar." />
 <meta property="og:url" content="https://bienvenidoalamas.com/" /><meta property="og:image" content="https://bienvenidoalamas.com/listings/834122476257511/01.jpg" /><meta name="twitter:card" content="summary_large_image" />
-<link rel="preload" href="data/index.json?v=1791595455599" as="fetch" crossorigin="anonymous" />
+<link rel="preload" href="data/index.json?v=1791598265698" as="fetch" crossorigin="anonymous" />
 <style>
   :root {
     --bg: #0e1318;
@@ -533,7 +533,9 @@
     .qbar { padding: 8px 12px 2px; }
     .qsel select { font-size: 15px; max-width: 190px; }
     .results-bar .sort-wrap span { display: none; }
-    header.topbar .map-toggle { display: none; }
+    header.topbar .map-toggle, .nav-guide { display: none !important; }
+    .nav-link.nav-cta { min-height: 36px; padding: 6px 10px; font-size: .8rem; position: absolute; top: 10px; right: 12px; }
+    .inc-link { order: 4; }
     .filters { top: auto; left: 0; right: 0; bottom: 0; width: 100vw; max-height: 88dvh; border-left: 0; border-top: 1px solid var(--border); border-radius: 18px 18px 0 0; transform: translateY(104%); box-shadow: 0 -10px 30px rgba(0,0,0,.5); }
     .filters.open { transform: none; }
     .sheet-grab { display: block; width: 44px; height: 5px; border-radius: 3px; background: #3a4a5e; margin: 8px auto 0; }
@@ -555,12 +557,31 @@
     .ztile b { font-size: .86rem; }
   }
   .detail-pane, main.show-map .detail-pane { display: none !important; }
+  .nav-link { color: var(--text); text-decoration: none; font-weight: 600; font-size: .88rem; padding: 9px 12px; border-radius: 10px; border: 1px solid var(--border); background: var(--panel-2); white-space: nowrap; min-height: 42px; display: inline-flex; align-items: center; }
+  .nav-link.nav-cta { background: var(--good); color: #062014; border-color: var(--good); font-weight: 800; }
+  .inc-link { font-size: .8rem; color: var(--muted); white-space: nowrap; text-decoration: none; border-bottom: 1px dashed #56687c; }
+  .inc-link:hover { color: var(--text); }
+  .bdg.destacado { background: #ff9f1a; color: #231200; }
+  .card.promo { border-color: #ff9f1a; box-shadow: 0 0 0 1px rgba(255,159,26,.5); }
+  .pill.trust-sunarp { background: rgba(62,207,142,.14); border-color: rgba(62,207,142,.6); color: #bff0d4; }
+  .pill.trust-titulo { background: rgba(77,141,255,.14); border-color: rgba(77,141,255,.5); color: #cfe0ff; }
+  .pill.trust-posesion { background: rgba(240,180,41,.14); border-color: rgba(240,180,41,.55); color: #ffe6a6; }
+  .pill.trust-sin_verificar { border-color: #56687c; border-style: dotted; }
+  .lp-trust { margin-top: 12px; border: 1px solid rgba(240,180,41,.6); background: rgba(240,180,41,.07); border-radius: 14px; padding: 12px 14px; font-size: .88rem; }
+  .lp-trust h3 { margin: 0 0 6px; font-size: .95rem; color: #ffe6a6; }
+  .lp-trust p { margin: 0 0 6px; } .lp-trust .muted { color: var(--muted); }
+  .lp-trust ul { margin: 0 0 8px; padding-left: 18px; } .lp-trust li { margin: 2px 0; }
+  .lp-trust-act { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  .lp-trust-act .btn-sunarp { background: var(--warn); color: #231800; font-weight: 800; padding: 8px 12px; border-radius: 9px; text-decoration: none; }
+  .adslot { grid-column: 1 / -1; display: flex; flex-direction: column; gap: 2px; border: 1.5px dashed #3a4a5e; border-radius: 12px; padding: 12px 14px; text-decoration: none; color: var(--muted); background: rgba(255,255,255,.015); font-size: .84rem; }
+  .adslot b { color: var(--text); font-size: .9rem; } .adslot:hover { border-color: var(--accent); }
+  .adslot-ficha { margin-top: 12px; }
 </style>
 </head>
 <body>
 <a href="#list" class="sr-only">Saltar al listado</a>
 <header class="topbar">
-  <h1 id="siteTitle" title="Inicio"><span class="flag-1">Terrenos</span> <span class="flag-3">Perú</span><span class="brand-sub">Lotes, terrenos, casas y chacras en San Martín</span></h1>
+  <h1 id="siteTitle" title="Inicio"><span class="flag-1">CompraTerrenos</span><span class="flag-3">.pe</span><span class="brand-sub">Terrenos, lotes y chacras en todo el Perú</span></h1>
   <div class="search-wrap" role="search">
     <span class="search-icon" aria-hidden="true">🔍</span>
     <label for="textQuery" class="sr-only">Buscar anuncios</label>
@@ -568,7 +589,10 @@
     <button type="button" class="search-clear" id="textQueryClear" aria-label="Borrar búsqueda" hidden>✕</button>
   </div>
   <div class="topbar-actions">
+    <a class="nav-link nav-guide" href="compra-segura.html">Compra segura</a>
+    <a class="nav-link nav-guide" href="primera-mirada.html">Primera mirada</a>
     <button type="button" class="map-toggle" id="mapToggle" aria-pressed="false">Mostrar mapa</button>
+    <a class="nav-link nav-cta" href="publicar.html">Publica gratis</a>
   </div>
 </header>
 <div class="qbar" id="quickBar" role="group" aria-label="Filtros principales">
@@ -600,6 +624,7 @@
 <div class="results-bar">
   <div class="result-count" id="resultCount" aria-live="polite">Cargando anuncios…</div>
   <div class="active-chips" id="activeChips" aria-label="Filtros activos"></div>
+  <a class="inc-link" id="incLink" href="incompleta.html" title="Anuncios sin precio real o sin datos">+ 2355 con información incompleta</a>
   <label class="sort-wrap"><span>Ordenar</span>
     <select id="sortBy" aria-label="Ordenar por">
       <option value="distance">Distancia</option>
@@ -642,6 +667,19 @@
       <div class="presets" data-presets="size"></div>
       <label>Mínimo<input type="number" id="minM2" min="0" step="50" placeholder="cualquiera" inputmode="numeric" /></label>
       <label>Máximo<input type="number" id="maxM2" min="0" step="50" placeholder="cualquiera" inputmode="numeric" /></label>
+    </section>
+    <section class="fsec" id="secLegal">
+      <h3>Situación legal <small style="color:var(--muted);font-weight:500">(según el texto del vendedor)</small></h3>
+      <label class="span-2">Documentos
+        <select id="trustFilter">
+          <option value="all">Todos</option>
+          <option value="respaldo">Con partida o título mencionado</option>
+          <option value="sunarp">Inscrito en SUNARP (partida mencionada)</option>
+          <option value="titulo">Título mencionado</option>
+          <option value="posesion">Solo posesión</option>
+          <option value="sin_verificar">Sin verificar</option>
+        </select></label>
+      <p class="span-2" style="margin:0;font-size:.8rem;color:var(--muted)">No es una verificación nuestra: confírmalo en <a href="https://conoce-aqui.sunarp.gob.pe/conoce-aqui" target="_blank" rel="noopener">SUNARP</a>.</p>
     </section>
     <section class="fsec">
       <h3>Novedad y ofertas</h3>
@@ -1025,7 +1063,7 @@ function checkedValues(containerId) {
 function buildMultiChecks() {
   const tc = document.getElementById('tipoChecks');
   const zc = document.getElementById('zonaChecks');
-  const count = (key, val) => DATA.listings.filter(l => (l[key] || '') === val).length;
+  const count = (key, val) => DATA.listings.filter(l => !l.inc && (l[key] || '') === val).length;
   if (tc) tc.innerHTML = TIPOS.filter(t => count('tipo', t)).map(t => '<label class="check"><input type="checkbox" name="tipo" value="' + esc(t) + '" /> ' + esc(TIPO_LABEL[t]) + ' <span class="n">' + count('tipo', t) + '</span></label>').join('');
   if (zc) zc.innerHTML = ZONAS.filter(z => count('zona', z)).map(z => '<label class="check"><input type="checkbox" name="zona" value="' + esc(z) + '" /> ' + esc(z) + ' <span class="n">' + count('zona', z) + '</span></label>').join('');
   document.querySelectorAll('#tipoChecks input, #zonaChecks input').forEach(el => el.addEventListener('change', () => commit()));
@@ -1200,7 +1238,10 @@ function filtered() {
   if (textTerms.length && !searchIdx) loadSearchIndex();
   refreshDerived();
   let rows = DATA.listings.slice();
+  const trustMode = document.getElementById('trustFilter')?.value || 'all';
   rows = rows.filter(l => {
+    if (l.inc) return false;   // Información incompleta: fuera de los resultados (ver incompleta.html)
+    if (trustMode !== 'all') { const t = l.trust || 'sin_verificar'; if (trustMode === 'respaldo' ? !(t === 'sunarp' || t === 'titulo') : t !== trustMode) return false; }
     if (maxDist != null && (l.distance_km == null || l.distance_km > maxDist)) return false;
     const price = priceView(l).sort;
     if (minPrice != null && (price == null || price < minPrice)) return false;
@@ -1286,6 +1327,9 @@ function filtered() {
     }
     return (a.distance_km ?? 999) - (b.distance_km ?? 999);
   });
+  // Destacados (promo): como máximo 3 arriba de la lista; el resto sigue en su orden normal.
+  const promoted = rows.filter(l => l.promo === 'destacado' || l.promo === 'portada').slice(0, 3);
+  if (promoted.length) { const ps = new Set(promoted); rows = promoted.concat(rows.filter(l => !ps.has(l))); }
   if (repostMode === 'group') {
     const seenGroups = new Set();
     rows = rows.filter(l => {
@@ -1402,6 +1446,7 @@ function cardHtml(l, { openDesc = false } = {}) {
   const fav = interest === 'interested' ? ' interested' : '';
   const neu = l.is_new ? ' is-new' : '';
   const tl = ['<div class="badges-tl">'];
+  if (l.promo) tl.push('<span class="bdg destacado">Destacado</span>');
   if (l.is_new) tl.push('<span class="bdg nuevo">Nuevo</span>');
   if (isDeal(l)) tl.push('<span class="bdg oferta">Vale la pena</span>');
   if (l.repost_group) tl.push('<span class="bdg rep" title="' + esc((l.repost_reasons || []).join(', ')) + '">Posible repetido</span>');
@@ -1416,11 +1461,12 @@ function cardHtml(l, { openDesc = false } = {}) {
   if (l.operacion === 'alquiler') chips.push('<span class="pill alquiler">Alquiler</span>');
   if (l.fuera_200km_carretera) chips.push('<span class="pill lejos">Fuera de 200 km</span>');
   if (priceDoubtful(l)) chips.push('<span class="pill doubtful">Precio dudoso</span>');
+  if (l.trust) chips.push(trustPill(l));
   chips.push('<span class="pill">' + esc(listedLabel(l)) + '</span>');
   const size = sizeLabel(l);
   const descClass = openDesc ? 'desc full-ad' : 'desc clamp full-ad';
   const toggleLabel = openDesc ? 'Ocultar anuncio' : 'Ver anuncio completo';
-  return '<article class="card' + dim + fav + neu + '" id="card-' + esc(l.id) + '" data-id="' + esc(l.id) + '">' +
+  return '<article class="card' + dim + fav + neu + (l.promo ? ' promo' : '') + '" id="card-' + esc(l.id) + '" data-id="' + esc(l.id) + '">' +
     thumb +
     interestRowHtml(l) +
     '<div class="card-body">' +
@@ -1563,7 +1609,7 @@ function refreshAfterInterestChange(id) {
     render();
     return;
   }
-  const nNew = DATA.listings.filter(x => x.is_new).length;
+  const nNew = DATA.listings.filter(x => x.is_new && !x.inc).length;
   updateFilterUI(rows.length, nNew);
   if (listingOpenId) updateListingBrowseControls(listingOpenId);
 }
@@ -1573,9 +1619,9 @@ function ensureCardRendered(id) {
 }
 function render() {
   const rows = filtered();
-  const nNew = DATA.listings.filter(x => x.is_new).length;
+  const nNew = DATA.listings.filter(x => x.is_new && !x.inc).length;
   document.getElementById('meta').textContent =
-    rows.length + ' de ' + DATA.listings.length + ' anuncios' +
+    rows.length + ' de ' + mainTotal() + ' anuncios' +
     (nNew ? (' · ' + nNew + ' nuevo' + (nNew === 1 ? '' : 's') + ' hoy (Perú)') : '') +
     ' · actualizado ' + (DATA.generated_at ? new Date(DATA.generated_at).toLocaleString('es-PE', { timeZone: 'America/Lima' }) : '');
   updateFilterUI(rows.length, nNew);
@@ -1634,7 +1680,7 @@ document.getElementById('interestImportFile')?.addEventListener('change', async 
     if (saveStatusEl()) saveStatusEl().textContent = 'Importación falló: ' + (err.message || err);
   }
 });
-['sortBy', 'dealsOnly', 'newOnly', 'parcelType', 'sellerFilter', 'precisionFilter', 'repostMode', 'operacionFilter', 'farFilter'].forEach(id => {
+['sortBy', 'dealsOnly', 'newOnly', 'parcelType', 'sellerFilter', 'precisionFilter', 'repostMode', 'operacionFilter', 'farFilter', 'trustFilter'].forEach(id => {
   document.getElementById(id)?.addEventListener('change', () => commit());
 });
 document.getElementById('interestFilter')?.addEventListener('change', () => commit());
@@ -1662,7 +1708,7 @@ document.getElementById('reset').onclick = () => {
   const tq = document.getElementById('textQuery');
   if (tq) tq.value = '';
   document.querySelectorAll('#interestFilter input[name="interest"], #tipoChecks input, #zonaChecks input').forEach(el => { el.checked = false; });
-  ['precisionFilter', 'repostMode', 'operacionFilter', 'farFilter'].forEach(id => { const el = document.getElementById(id); if (el) el.value = 'all'; });
+  ['precisionFilter', 'repostMode', 'operacionFilter', 'farFilter', 'trustFilter'].forEach(id => { const el = document.getElementById(id); if (el) el.value = 'all'; });
   syncSearchClear();
   commit();
 };
@@ -1774,13 +1820,14 @@ function activeFilters() {
     const v = val(id);
     if (v !== '' && v != null) out.push({ label: pre + Number(v).toLocaleString('es-PE') + suf, clear: clearVal(id, '') });
   }
-  const selects = [['precisionFilter', 'all'], ['farFilter', 'all'], ['parcelType', 'all'], ['operacionFilter', 'all'], ['dealsOnly', 'no'], ['newOnly', 'no'], ['sellerFilter', 'all'], ['repostMode', 'all']];
+  const selects = [['trustFilter', 'all'], ['precisionFilter', 'all'], ['farFilter', 'all'], ['parcelType', 'all'], ['operacionFilter', 'all'], ['dealsOnly', 'no'], ['newOnly', 'no'], ['sellerFilter', 'all'], ['repostMode', 'all']];
   for (const [id, def] of selects) {
     if (val(id) && val(id) !== def) {
       let label = selectedText(id);
       if (id === 'dealsOnly') label = 'Solo ofertas';
       if (id === 'precisionFilter') label = 'Precisión: ' + label.toLowerCase();
       if (id === 'sellerFilter') label = 'Vendedor: ' + label.toLowerCase();
+      if (id === 'trustFilter') label = 'Legal: ' + label;
       out.push({ label, clear: clearVal(id, def) });
     }
   }
@@ -1788,10 +1835,11 @@ function activeFilters() {
   for (const el of document.querySelectorAll('#interestFilter input:checked')) out.push({ label: 'Marca: ' + (intLabels[el.value] || el.value), clear: () => { el.checked = false; } });
   return out;
 }
+function mainTotal() { if (DATA.__main == null) DATA.__main = DATA.listings.filter(l => !l.inc).length; return DATA.__main; }
 function updateFilterUI(count, nNew) {
   const rc = document.getElementById('resultCount');
   if (rc) rc.innerHTML = count.toLocaleString('es-PE') + ' anuncio' + (count === 1 ? '' : 's') +
-    (count !== DATA.listings.length ? ' <small>de ' + DATA.listings.length.toLocaleString('es-PE') + '</small>' : '');
+    (count !== mainTotal() ? ' <small>de ' + mainTotal().toLocaleString('es-PE') + '</small>' : '');
   const qn = document.getElementById('quickNew');
   if (qn) {
     const on = document.getElementById('newOnly')?.value === 'yes';
@@ -1856,8 +1904,27 @@ window.addEventListener('resize', () => {
   if (map) map.invalidateSize();
 });
 
+// ===== CompraTerrenos.pe: confianza (texto del vendedor), espacios publicitarios =====
+const TRUST_TXT = { sunarp: 'Inscrito en SUNARP', titulo: 'Título mencionado', posesion: 'Solo posesión', sin_verificar: 'Sin verificar' };
+function trustPill(l, always) {
+  const t = l.trust || 'sin_verificar';
+  if (!always && t === 'sin_verificar') return '';
+  return '<span class="pill trust trust-' + t + '" title="Según el texto del vendedor; no verificado por CompraTerrenos.pe">' + TRUST_TXT[t] + '</span>';
+}
+function trustBoxHtml(l) {
+  const t = l.trust || 'sin_verificar';
+  return '<div class="lp-trust"><h3>Verifica antes de pagar</h3>' +
+    '<p>Situación legal: <b>' + TRUST_TXT[t] + '</b> <span class="muted">— según lo que escribió el vendedor; CompraTerrenos.pe no lo ha verificado.</span></p>' +
+    '<ul><li>Pide el <b>número de partida registral</b> y revisa quién es el dueño en SUNARP.</li><li>Pide copia literal o certificado registral (cargas y gravámenes).</li><li>No pagues adelantos sin contrato; firma ante notario y paga por banco.</li></ul>' +
+    '<div class="lp-trust-act"><a class="btn-sunarp" href="https://conoce-aqui.sunarp.gob.pe/conoce-aqui" target="_blank" rel="noopener">Consulta gratis en SUNARP ↗</a>' +
+    '<a href="compra-segura.html">Guía Compra segura</a></div></div>';
+}
+function adSlotHtml(where) {
+  return '<a class="adslot adslot-' + where + '" href="anuncia.html"><b>Anuncia aquí</b><span>' + (where === 'ficha' ? 'Notarías, constructoras, topógrafos: llega a compradores de esta zona.' : 'Tu negocio frente a quienes buscan terreno. Banner de zona desde S/ 99/mes.') + '</span></a>';
+}
+
 // ===== Terrenos Perú fase 1: datos bajo demanda, estado en URL, clusters, hoja de filtros =====
-const BUILD = '1791595455599';
+const BUILD = '1791598265698';
 const ZONA_SLUG = Object.fromEntries(ZONAS.map(z => [slugify(z), z]));
 const TIPO_SLUG = Object.fromEntries(TIPOS.map(t => [slugify(t), t]));
 function slugify(s) { return String(s).normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); }
@@ -1865,10 +1932,10 @@ const PRICE_PRESETS = [['-20000', 'Hasta 20 mil'], ['20000-50000', '20–50 mil'
 const SIZE_PRESETS = [['-300', 'Hasta 300 m²'], ['300-1000', '300–1,000 m²'], ['1000-10000', '1,000 m² – 1 ha'], ['10000-50000', '1–5 ha'], ['50000-', 'Más de 5 ha']];
 
 // --- estado <-> controles <-> URL ---
-const SELECT_DEFAULTS = { sortBy: 'distance', newOnly: 'no', dealsOnly: 'no', parcelType: 'all', operacionFilter: 'all', precisionFilter: 'all', farFilter: 'all', sellerFilter: 'all', repostMode: 'all' };
+const SELECT_DEFAULTS = { trustFilter: 'all', sortBy: 'distance', newOnly: 'no', dealsOnly: 'no', parcelType: 'all', operacionFilter: 'all', precisionFilter: 'all', farFilter: 'all', sellerFilter: 'all', repostMode: 'all' };
 const NUM_IDS = ['minPrice', 'maxPrice', 'minM2', 'maxM2', 'maxDist'];
 // nombre corto en la URL
-const URL_KEYS = { textQuery: 'q', minPrice: 'pmin', maxPrice: 'pmax', minM2: 'tmin', maxM2: 'tmax', maxDist: 'km', sortBy: 'orden', newOnly: 'nuevos', dealsOnly: 'ofertas', parcelType: 'parcela', operacionFilter: 'op', precisionFilter: 'precision', farFilter: 'lejos', sellerFilter: 'vend', sellerQuery: 'vendedor', repostMode: 'repetidos' };
+const URL_KEYS = { trustFilter: 'legal', textQuery: 'q', minPrice: 'pmin', maxPrice: 'pmax', minM2: 'tmin', maxM2: 'tmax', maxDist: 'km', sortBy: 'orden', newOnly: 'nuevos', dealsOnly: 'ofertas', parcelType: 'parcela', operacionFilter: 'op', precisionFilter: 'precision', farFilter: 'lejos', sellerFilter: 'vend', sellerQuery: 'vendedor', repostMode: 'repetidos' };
 function val(id) { const el = document.getElementById(id); return el ? el.value : ''; }
 function readState() {
   const s = {};
@@ -1935,7 +2002,7 @@ function rangeKey(a, b) { return (a || '') + '-' + (b || ''); }
 function buildQuickControls() {
   const qz = document.getElementById('qZona');
   const qt = document.getElementById('qTipo');
-  const count = (key, v) => DATA.listings.reduce((n, l) => n + ((l[key] || '') === v ? 1 : 0), 0);
+  const count = (key, v) => DATA.listings.reduce((n, l) => n + (!l.inc && (l[key] || '') === v ? 1 : 0), 0);
   qz.innerHTML = '<option value="">Todas las zonas</option>' + ZONAS.map(z => '<option value="' + esc(z) + '">' + esc(z) + ' (' + count('zona', z) + ')</option>').join('') + '<option value="__multi" disabled hidden>Varias zonas</option>';
   qt.innerHTML = '<option value="">Todos los tipos</option>' + TIPOS.filter(t => count('tipo', t)).map(t => '<option value="' + esc(t) + '">' + esc(TIPO_LABEL[t]) + ' (' + count('tipo', t) + ')</option>').join('') + '<option value="__multi" disabled hidden>Varios tipos</option>';
   const pp = document.querySelector('[data-presets="price"]');
@@ -2126,17 +2193,17 @@ function homeHeaderHtml(rows, s) {
     const nNew = rows.filter(l => l.is_new).length;
     return '<div class="zone-head"><h2>Terrenos en ' + esc(s.zona[0]) + '</h2><span class="zstats">' + rows.length + ' anuncios' +
       (med ? ' · precio mediano PEN ' + Math.round(med).toLocaleString('es-PE') : '') + (nNew ? ' · <b style="color:var(--good)">' + nNew + ' nuevos hoy</b>' : '') + '</span>' +
-      (onlyZona ? '<button type="button" data-home="1">← Todas las zonas</button>' : '') + '</div>';
+      (onlyZona ? '<button type="button" data-home="1">← Todas las zonas</button>' : '') + '</div>' + adSlotHtml('zona');
   }
   const any = s.zona.length || s.tipo.length || s.q || s.pmin || s.pmax || s.tmin || s.tmax || s.km || s.marca.length ||
     Object.entries(SELECT_DEFAULTS).some(([id, d]) => id !== 'sortBy' && s[URL_KEYS[id]] && s[URL_KEYS[id]] !== d) || s.vendedor;
   if (any) return '';
   const by = new Map(ZONAS.map(z => [z, { n: 0, nn: 0 }]));
-  for (const l of DATA.listings) { const b = by.get(l.zona); if (b) { b.n++; if (l.is_new) b.nn++; } }
+  for (const l of DATA.listings) { if (l.inc) continue; const b = by.get(l.zona); if (b) { b.n++; if (l.is_new) b.nn++; } }
   return '<div class="zone-tiles"><h2>Explorar por zona</h2>' + ZONAS.filter(z => by.get(z).n).map(z => {
     const b = by.get(z);
     return '<button type="button" class="ztile" data-zona="' + esc(z) + '"><b>' + esc(z) + '</b><span>' + b.n + ' anuncios' + (b.nn ? ' · <span class="nn">' + b.nn + ' nuevos</span>' : '') + '</span></button>';
-  }).join('') + '</div>';
+  }).join('') + '</div>' + adSlotHtml('home');
 }
 document.getElementById('list').addEventListener('click', (e) => {
   const zt = e.target.closest('[data-zona]');
@@ -2416,6 +2483,8 @@ function listingPageHtml(l, idx) {
   if (priceDoubtful(l)) pills.push('<span class="pill doubtful">Precio dudoso</span>');
   if (l.reduced_from) pills.push('<span class="pill">Antes ' + esc(String(l.reduced_from)) + '</span>');
   pills.push(...tagPills(l));
+  pills.push(trustPill(l, true));
+  if (l.inc) pills.push('<span class="pill doubtful">Información incompleta: ' + (l.inc === 'precio_no_real' ? 'precio no real' : 'sin datos') + '</span>');
   if (l.is_lote === true && l.tipo !== 'lote') pills.push('<span class="pill lote">Es lote</span>');
   else if (l.is_lote === false && l.tipo === 'lote') pills.push('<span class="pill terreno">No es lote</span>');
 
@@ -2437,7 +2506,8 @@ function listingPageHtml(l, idx) {
       '<a class="fb-cta" href="' + esc(l.url) + '" target="_blank" rel="noopener">Abrir anuncio en Facebook ↗</a>' +
       shareHtml(l) +
     '</div>' +
-    '<div class="lp-seller"><h3>Vendedor</h3><div>' + sellerDetailHtml(l) + '</div></div>';
+    '<div class="lp-seller"><h3>Vendedor</h3><div>' + sellerDetailHtml(l) + '</div></div>' +
+    trustBoxHtml(l) + adSlotHtml('ficha');
   const details =
     (l.deals_notes ? '<div class="lp-section"><h3>Recomendación</h3><div class="lp-deals">' + esc(l.deals_notes) + '</div></div>' : '') +
     '<div class="lp-section"><h3>Descripción</h3><div class="lp-desc">' + (l.__full ? esc(l.description || '(Sin texto del anuncio)') : '<span class="lp-loading">Cargando descripción…</span>') + '</div></div>' +
